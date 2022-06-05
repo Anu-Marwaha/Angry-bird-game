@@ -109,12 +109,12 @@ async function getBackgroundImg(){
     var hour = datetime.slice(11,13);
     
     if(hour>=06 && hour<=19){
-        bg = "sprites/bg1.png";
+        bg = bg1;
     }
     else{
-        bg = "sprites/bg2.jpg";
+        bg = bg2;
     }
 
-    backgroundImg = loadImage(bg);
+    backgroundImg = bg;
     console.log(backgroundImg);
 }
