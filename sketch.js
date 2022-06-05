@@ -16,7 +16,7 @@ function preload() {
     bg1=loadImage("/sprites/bg1.png");
     bg2=loadImage("/sprites/bg2.png");
     backgroundImg = loadImage("/sprites/bg1.png");
-    getBackgroundImg();
+    //getBackgroundImg();
 }
 
 function setup(){
