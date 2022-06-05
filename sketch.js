@@ -13,9 +13,9 @@ var bg1,bg2,bg;
 var score = 0;
 
 function preload() {
-    bg1=loadImage("/sprites/bg1.png");
-    bg2=loadImage("/sprites/bg2.jpg");
-    backgroundImg = loadImage("/sprites/bg1.png");
+    bg1=loadImage("./sprites/bg1.png");
+    bg2=loadImage("./sprites/bg2.jpg");
+    backgroundImg = loadImage("./sprites/bg1.png");
     //getBackgroundImg();
 }
 
