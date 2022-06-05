@@ -16,7 +16,7 @@ function preload() {
     bg1=loadImage("/sprites/bg1.png");
     bg2=loadImage("/sprites/bg2.jpg");
     backgroundImg = loadImage("./sprites/bg1.png");
-    getBackgroundImg();
+  //  getBackgroundImg();
 }
 
 function setup(){
@@ -51,7 +51,7 @@ function setup(){
 
 function draw(){
 //    if(backgroundImg)
- //      background(backgroundImg);
+      background(backgroundImg);
     
         noStroke();
         textSize(35)
