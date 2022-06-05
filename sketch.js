@@ -14,7 +14,7 @@ var score = 0;
 
 function preload() {
     bg1=loadImage("/sprites/bg1.png");
-    bg2=loadImage("/sprites/bg2.png");
+    bg2=loadImage("/sprites/bg2.jpg");
     backgroundImg = loadImage("/sprites/bg1.png");
     //getBackgroundImg();
 }
@@ -97,7 +97,7 @@ function mouseReleased(){
 
 function keyPressed(){
     if(keyCode === 32){
-       // slingshot.attach(bird.body);
+        slingshot.attach(bird.body);
     }
 }
 
